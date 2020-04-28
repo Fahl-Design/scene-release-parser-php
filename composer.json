@@ -14,13 +14,13 @@
 	    }
     },
     "require": {
-        "mhor/php-mediainfo": "~2.1 || ~5.0",
-        "symfony/console": "^3.2",
-        "symfony/framework-bundle": "^3.2",
+        "mhor/php-mediainfo": "~5.0",
+        "symfony/console": "^5.0",
+        "symfony/framework-bundle": "^5.0",
         "ext-json": "*"
     },
     "require-dev": {
         "codeclimate/php-test-reporter": "dev-master",
-        "phpunit/phpunit": "^6.2 || ^9.0"
+        "phpunit/phpunit": "^9.0"
     }
 }
