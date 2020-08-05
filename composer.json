@@ -1,26 +1,26 @@
 {
-    "name": "thcolin/scene-release-parser",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "thcolin",
-            "email": "th.colin3@gmail.com"
-        }
-    ],
-    "autoload": {
-	    "psr-4": {
-		    "thcolin\\SceneReleaseParser\\": "src/"
-	    }
-    },
-    "require": {
-        "mhor/php-mediainfo": "~5.0",
-        "symfony/console": "^5.0",
-        "symfony/framework-bundle": "^5.0",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "codeclimate/php-test-reporter": "dev-master",
-        "phpunit/phpunit": "^9.0"
+  "name": "thcolin/scene-release-parser",
+  "description": "just a simple scene-release-parser",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "thcolin",
+      "email": "th.colin3@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "thcolin\\SceneReleaseParser\\": "src/"
+    }
+  },
+  "require": {
+    "mhor/php-mediainfo": "~5.0",
+    "symfony/console": "^5.0",
+    "symfony/framework-bundle": "^5.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
 }

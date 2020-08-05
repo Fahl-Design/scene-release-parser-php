@@ -8,11 +8,6 @@ class ReleaseMediaInfoTest extends \PHPUnit\Framework\TestCase
     public function testAnalyseSuccess()
     {
         $elements = [
-            'https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4' => [
-                'encoding' => SrpRc::ENCODING_H264,
-                'resolution' => SrpRc::RESOLUTION_SD,
-                'language' => 'ENGLISH'
-            ],
             'https://samples.mplayerhq.hu/V-codecs/h264/bbc-africa_m720p.mov' => [
                 'encoding' => SrpRc::ENCODING_H264,
                 'resolution' => SrpRc::RESOLUTION_720P,
